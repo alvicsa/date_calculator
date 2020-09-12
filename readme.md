@@ -25,7 +25,7 @@ since there are no fully elapsed days contained in between those, and 01/01/2000
 #### Technologies
 
 Running this program requires Python (version 3.6 and above) interpreter installed 
-on their system. If you see a version of Python earlier than Python 3.6, you
+on their system. If you have a version of Python earlier than Python 3.6, you
 may download the latest Python interpreter from https://python.org/
 
 - The repository contains all the necessary files to run the program and 
