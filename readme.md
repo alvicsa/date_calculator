@@ -47,12 +47,12 @@ does not require any external libraries to be downloaded.
 
 #### Installation
 Once you have the correct Python interpreter installed, open your preferred terminal and change the working directory to the downloaded **date_calculator**.
-Once inside the directory, rund the following command:
+Once inside the directory, run the following command:
 
 ```
 python main.py
 ```
-You will be prompted to enter two dates. Please use the following format when entering: DD/MM/YYYY
+You will be prompted to enter two dates. Please use the following format when entering dates: DD/MM/YYYY
 
 Below is an example of running the programm using a command line.
 ```html
