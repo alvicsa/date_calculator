@@ -34,10 +34,14 @@ does not require any external libraries to be downloaded.
 
 #### Contents
 
-**main.py** is used to run the program 
-**packages** folder contains a module with the necessary function and class definitions
-**test.py** contains a small *unittest* based script to test the program for various input dates
-**.gitignore** file contains a list of superfluous files and can be ignore
+-- **main.py** is used to run the program
+
+-- **packages** folder contains a module with the necessary function and class definitions
+
+-- **test.py** contains a small *unittest* based script to test the program for various input dates
+
+-- **.gitignore** file contains a list of superfluous files and can be ignore
+
 
 [Back To The Top](#read-me-template)
 
