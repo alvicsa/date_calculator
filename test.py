@@ -1,5 +1,4 @@
 import unittest
-import main
 from datetime import datetime, timedelta
 from packages.utility import Date, day_difference
 
