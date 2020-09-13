@@ -2,6 +2,7 @@ import unittest
 from datetime import datetime, timedelta
 from packages.utility import Date, day_difference
 
+
 class TestMain(unittest.TestCase):
     """Tests for 'day_difference' function."""
 
@@ -17,7 +18,7 @@ class TestMain(unittest.TestCase):
         date_f = Date(int(first_d), int(first_m), int(first_y))
         date_s = Date(int(second_d), int(second_m), int(second_y))
 
-        result = day_difference(date_f,date_s)
+        result = day_difference(date_f, date_s)
         self.assertEqual(result, 19)
 
     def test_datediff2(self):
@@ -32,7 +33,7 @@ class TestMain(unittest.TestCase):
         date_f = Date(int(first_d), int(first_m), int(first_y))
         date_s = Date(int(second_d), int(second_m), int(second_y))
 
-        result = day_difference(date_f,date_s)
+        result = day_difference(date_f, date_s)
         self.assertEqual(result, 173)
 
     def test_datediff3(self):
@@ -47,9 +48,9 @@ class TestMain(unittest.TestCase):
         date_f = Date(int(first_d), int(first_m), int(first_y))
         date_s = Date(int(second_d), int(second_m), int(second_y))
 
-        result = day_difference(date_f,date_s)
+        result = day_difference(date_f, date_s)
         self.assertEqual(result, 1979)
-    
+
     def test_datediff4(self):
         test_date_first = "03/01/1901"
         test_date_second = "03/08/2999"
@@ -67,8 +68,9 @@ class TestMain(unittest.TestCase):
         b = datetime.strptime(test_date_second, date_format)
         delta = b - a
 
-        result = day_difference(date_f,date_s)
+        result = day_difference(date_f, date_s)
         self.assertEqual(result, abs(delta.days)-1)
+
 
 if __name__ == '__main__':
     unittest.main()

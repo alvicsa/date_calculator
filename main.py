@@ -8,10 +8,12 @@ if __name__ == '__main__':
     while True:
         try:
             # Prompt the user for data filename and return the processed dataframe
-            first_date = input('Please enter First Date using the DD/MM/YYYY format: ')
+            first_date = input(
+                'Please enter First Date using the DD/MM/YYYY format: ')
             if first_date == 'q':
                 break
-            second_date = input('Please enter Second Date using the DD/MM/YYYY format: ')
+            second_date = input(
+                'Please enter Second Date using the DD/MM/YYYY format: ')
             if second_date == 'q':
                 break
 
@@ -35,5 +37,6 @@ if __name__ == '__main__':
             elif day_difference(date_f, date_s) == "Dates not valid":
                 print("The dates entered are not valid. Goodbye!")
             else:
-                print(f'\t{first_date} - {second_date} =', day_difference(date_f, date_s), "days")
+                print(f'\t{first_date} - {second_date} =',
+                      day_difference(date_f, date_s), "days")
             break

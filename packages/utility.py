@@ -31,13 +31,12 @@ def day_difference(dt1, dt2):
     Calculates a number of full days elapsed between two Date Objects
     '''
     try:
-        
 
         # List number of days in each month for non-leap years
         month_days = 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
 
         # Check that valid days are being entered
-        if (0 < dt1.d <= month_days[dt1.m -1]) and (0 < dt2.d <= month_days[dt2.m - 1]):
+        if (0 < dt1.d <= month_days[dt1.m - 1]) and (0 < dt2.d <= month_days[dt2.m - 1]):
 
             # Count number of days between 01/01/1901 and specified first_date
             # initialize count using years and days
@@ -57,7 +56,7 @@ def day_difference(dt1, dt2):
             for i in range(0, dt2.m):
                 n2 += month_days[i]
             n2 += count_leap_years(dt2)
-        
+
         else:
             raise ValueError
 
