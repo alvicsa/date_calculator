@@ -31,7 +31,9 @@ if __name__ == '__main__':
         else:
             # Print resulting date difference
             if first_date == second_date:
-                print("You entered the same First and Second dates.")
+                print("You entered the same First and Second dates. Goodbye")
+            elif day_difference(date_f, date_s) == "Dates not valid":
+                print("The dates entered are not valid. Goodbye!")
             else:
                 print(f'\t{first_date} - {second_date} =', day_difference(date_f, date_s), "days")
             break
