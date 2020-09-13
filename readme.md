@@ -49,13 +49,19 @@ does not require any external libraries to be downloaded.
 ## How To Use
 
 #### Installation
-Once you have the correct Python interpreter installed, open your preferred terminal and change the working directory to the downloaded **date_calculator**.
+-- Ensure you have the correct version of Python
+-- Download the latest code from this GitHub Repository
+-- Run the application from the the "date_calculator" directory
+
+
+**date_calculator**.
 Once inside the directory, run the following command:
 
 ```
 python main.py
 ```
 You will be prompted to enter two dates. Please use the following format when entering dates: DD/MM/YYYY
+Only Valid Dates cen be accepted.
 
 Below is an example of running the programm using a command line.
 ```html
